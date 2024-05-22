@@ -1,0 +1,132 @@
+.root {
+  width: 100%;
+  margin-block: 1rem;
+  padding: 0.5rem;
+  background-color: transparent;
+}
+
+.mainContainer {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-block: 2rem;
+}
+
+.footerContainer1, .footerContainer2, .footerContainer3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContainer1{
+  padding-right: 5rem;
+}
+
+.container1H1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: normal;
+}
+.container1H1 > img {
+  width: 60px;
+  height: 60px;
+}
+.container1H1 > p {
+  font-size: 1.75rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+.container1H1 > p > span {
+  padding-left: 0.1rem;
+  color: rgb(225, 196, 100);
+}
+
+.footerContainer1{
+  gap: 2rem;
+}
+
+.footerContainer1 > p{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.75;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  width: 70%;
+  font-size: medium;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  word-break: break-word;
+  text-transform: capitalize;
+}
+
+.footerContainer2 > h4, .footerContainer3 > h4{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.75;
+  font-size: 1.5rem;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  width: 100%;
+  word-break: break-word;
+  text-transform: capitalize;
+}
+
+.footerContainer2 > a, .footerContainer3 > a{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.75;
+  font-size: medium;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  width: fit-content;
+  color: rgba(255, 255, 255, 0.8);
+  word-break: break-word;
+  text-transform: capitalize;
+}
+
+.footerContainer2 > a:hover, .footerContainer3 > a:hover{
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #e6cba9,
+    #e9d2b6,
+    #ecd9c2,
+    #efe1cf,
+    #f2e8dc,
+    #f2e8dc,
+    #f2e8dc,
+    #f2e8dc,
+    #efe1cf,
+    #ecd9c2,
+    #e9d2b6,
+    #e6cba9
+  );
+  background-clip: text;
+}
+
+.copyWriteContainer{
+  display: flex;
+  padding-block: 1rem;
+  justify-content: space-between;
+}
+
+.copyWriteContainer > p{
+  font-size: large;
+}
+
+.socialIconContainer{
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIconContainer > a > img{
+  width: 25px;
+  height: 25px;
+}
+
