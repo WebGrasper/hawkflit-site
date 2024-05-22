@@ -130,3 +130,25 @@
   height: 25px;
 }
 
+@media only screen and (max-width: 963px) {
+  .mainContainer{
+    padding-inline: 1rem;
+  }
+  .footerContainer{
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .footerContainer1{
+    padding-right: 0;
+  }
+  .footerContainer1 > p{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .copyWriteContainer{
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
