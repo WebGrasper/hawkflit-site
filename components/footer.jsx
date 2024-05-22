@@ -17,11 +17,12 @@ function Footer() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusamus quaerat commodi </p>
             </div>
             <div className={styles.footerContainer2}>
-                <h4>Useful links</h4>
-                <Link href={'#'}>Features</Link>
-                <Link href={'#'}>Products</Link>
-                <Link href={'#'}>Portfolio</Link>
-                <Link href={'#'}>Clients</Link>
+                <h4>Services</h4>
+                <Link href={'#'}>Web development</Link>
+                <Link href={'#'}>User interface design</Link>
+                <Link href={'#'}>Custom software development</Link>
+                <Link href={'#'}>Mobile app development</Link>
+                <Link href={'#'}>Social media handling</Link>
             </div>
             <div className={styles.footerContainer3}>
             <h4>Community</h4>

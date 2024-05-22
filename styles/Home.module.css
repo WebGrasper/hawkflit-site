@@ -88,6 +88,7 @@
   width: 20rem;
   margin-left: 9rem;
   border-radius: 25px;
+  border: 10px solid rgba(255, 255, 255, 0.25);
   box-shadow: 20px 0px 300px #c0c0c082;
 }
 
@@ -140,6 +141,7 @@
   width: 20rem;
   margin-right: 9rem;
   border-radius: 25px;
+  border: 10px solid rgba(255, 255, 255, 0.25);
   box-shadow: 20px 0px 300px #c0c0c082;
 }
 
@@ -257,6 +259,7 @@
   width: 20rem;
   margin-left: 9rem;
   border-radius: 25px;
+  border: 10px solid rgba(255, 255, 255, 0.25);
   box-shadow: 20px 0px 300px #c0c0c082;
 }
 
@@ -358,7 +361,8 @@
 .section6Container1 > img {
   width: 20rem;
   margin-right: 9rem;
-  border-radius: 25px;
+  border-radius: 40px;
+  border: 10px solid rgba(255, 255, 255, 0.25);
   box-shadow: 20px 0px 300px #c0c0c082;
 }
 
