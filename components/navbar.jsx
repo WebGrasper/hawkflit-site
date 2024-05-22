@@ -19,9 +19,9 @@ function Navbar() {
   const pathname = usePathname();
 
   const [isAtHome, setAtHome] = useState(false);
-  const [isAtCoffeeTables, setAtCoffeeTables] = useState(false);
-  const [isAtSideTables, setAtSideTables] = useState(false);
-  const [isAtConsoleAndPillars, setAtConsoleAndPillars] = useState(false);
+  const [isAtFeatures, setAtFeatures] = useState(false);
+  const [isAtProduct, setAtProduct] = useState(false);
+  const [isAtPortfolio, setAtPortfolio] = useState(false);
 
   useEffect(() => {
     if (pathname == '/') {
@@ -30,22 +30,22 @@ function Navbar() {
       setAtHome(false);
     }
 
-    if (pathname == '/products/coffee-tables') {
-      setAtCoffeeTables(true);
+    if (pathname == '/features') {
+      setAtFeatures(true);
     } else {
-      setAtCoffeeTables(false);
+      setAtFeatures(false);
     }
 
-    if (pathname == '/products/side-tables') {
-      setAtSideTables(true);
+    if (pathname == '/product') {
+      setAtProduct(true);
     } else {
-      setAtSideTables(false);
+      setAtProduct(false);
     }
 
-    if (pathname == '/products/console-and-pillars') {
-      setAtConsoleAndPillars(true);
+    if (pathname == '/portfolio') {
+      setAtPortfolio(true);
     } else {
-      setAtConsoleAndPillars(false);
+      setAtPortfolio(false);
     }
 
   }, [pathname]);
@@ -63,46 +63,16 @@ function Navbar() {
               </div>
             </Link>
           </div>
-          <div className={`${styles.container2}`}>
-            <form className={`${styles.container2Span}`} method="GET">
-              <input
-                type="search"
-                className={styles.container2SearchBox}
-                id="container2SearchBox"
-                placeholder="Tables, Pillars & more..."
-                onChange={(e) => {
-                  handleSearchBlogs(e.target.value || null);
-                }}
-              />
-            </form>
-            <div className={`${styles.searchCheckBoxContainer}`}>
-              <input
-                type="checkbox"
-                className={styles.searchCheckBox}
-                onClick={handleSearchCheckBox}
-              />
-              <img
-                className={styles.searchButton}
-                src="/searchIcon.svg"
-                alt="search icon"
-              />
-              <img
-                className={styles.searchCloseButton}
-                src="/closeButton.svg"
-                alt="close button"
-              />
-            </div>
-          </div>
           <div className={`${styles.containerButton}`}>
             <input type="checkbox" className={styles.checkBox} checked={isMenuOpen} onChange={() => setMenuOpen(!isMenuOpen)}/>
             <img
               className={styles.closeButton}
-              src="/closeButton.svg"
+              src="/close.png"
               alt="close button"
             />
             <img
               className={styles.menuButton}
-              src="/menuButton.svg"
+              src="/menu.png"
               alt="menu button"
             />
             <div className={styles.container3Navbar}>
@@ -115,57 +85,33 @@ function Navbar() {
                 <span>Home</span>
               </Link>
               <Link
-                className={`${styles.link} ${isAtCoffeeTables ? styles.active : ""}`}
-                href="/products/coffee-tables"
+                className={`${styles.link} ${isAtFeatures ? styles.active : ""}`}
+                href="/features"
                 passHref
                 onClick={handleLinkClick}
               >
                 <span>Features</span>
               </Link>
               <Link
-                className={`${styles.link} ${isAtSideTables ? styles.active : ""}`}
-                href="/products/side-tables"
+                className={`${styles.link} ${isAtProduct ? styles.active : ""}`}
+                href="/product"
                 passHref
                 onClick={handleLinkClick}
               >
                 <span>Product</span>
               </Link>
               <Link
-                className={`${styles.link} ${isAtConsoleAndPillars ? styles.active : ""}`}
-                href="/products/console-and-pillars"
+                className={`${styles.link} ${isAtPortfolio ? styles.active : ""}`}
+                href="/portfolio"
                 passHref
                 onClick={handleLinkClick}
               >
                 <span>Portfolio</span>
               </Link>
-              <Link
-                className={`${styles.link} ${isAtConsoleAndPillars ? styles.active : ""}`}
-                href="/about-us"
-                passHref
-                onClick={handleLinkClick}
-              >
-                <span>Clients</span>
-              </Link>
             </div>
           </div>
         </nav>
       </div>
-      <form
-        className={`${styles.buttomSearchBarContainer} ${
-          isSeachChechBoxChecked ? styles.show : ""
-        }`}
-        method="GET"
-      >
-        <input
-          type="search"
-          className={styles.buttomSearchBar}
-          id="container2SearchBox"
-          placeholder="Tables, Pillars & more..."
-          onChange={(e) => {
-            handleSearchBlogs(e.target.value || null);
-          }}
-        />
-      </form>
     </div>
   );
 }

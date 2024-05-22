@@ -80,12 +80,12 @@
 .footerContainer2 > a, .footerContainer3 > a{
   text-overflow: ellipsis;
   overflow: hidden;
-  line-height: 1.75;
+  line-height: 2;
   font-size: medium;
   -webkit-line-clamp: 2;
   z-index: 1;
   width: fit-content;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.6);
   word-break: break-word;
   text-transform: capitalize;
 }
