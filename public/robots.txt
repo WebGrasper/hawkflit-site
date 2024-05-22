@@ -1,0 +1,10 @@
+# Allow crawling of all content
+User-agent: *
+Disallow:
+
+# Exclude some directories from crawling
+Disallow: /api/
+Disallow: /_next/
+
+# Set a reference to the sitemap
+Sitemap: https://hawkflit.com/sitemap.xml
