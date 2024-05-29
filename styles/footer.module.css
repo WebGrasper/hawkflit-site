@@ -73,6 +73,7 @@
   -webkit-line-clamp: 2;
   z-index: 1;
   width: 100%;
+  color: white;
   word-break: break-word;
   text-transform: capitalize;
 }
@@ -118,6 +119,7 @@
 
 .copyWriteContainer > p{
   font-size: large;
+  color: white;
 }
 
 .socialIconContainer{

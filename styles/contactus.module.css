@@ -1,0 +1,183 @@
+.root {
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.mainContainer, .mapContainer{
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.mainContainer > p{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.75;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  width: 70%;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  word-break: break-word;
+  text-transform: capitalize;
+}
+
+.addressContainer{
+  padding-right: 1rem;
+}
+
+.addressContainer > h2 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.addressContainer > p {
+  padding-left: 4px;
+  margin-bottom: 0.5rem;
+  font-size: medium;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-block: 1rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  border-radius: 16px;
+  padding: 2rem;
+  gap: 1.25rem;
+  width: clamp(20rem, 27vw, 25rem);
+}
+
+.formContainer > h2{
+  color: white;
+}
+
+.formContainer input {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 0.5rem;
+  padding-left: 4px;
+  font-size: medium;
+  width: 100%;
+  transition: border-bottom 0.2s linear;
+}
+.formContainer input:focus,
+.formContainer input:active {
+  outline: none;
+  border-bottom: 2px solid white;
+  transform-origin: left;
+}
+.formContainer input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.formContainer textarea {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 1.1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding-left: 4px;
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+  transition: border-bottom 0.2s linear;
+}
+
+.formContainer textarea:focus,
+.formContainer textarea:active {
+  outline: none;
+  border-bottom: 2px solid white;
+  transform-origin: left;
+}
+
+.formContainer textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.formContainer button {
+  --tw-text-opacity: 1;
+  color: rgb(0 4 15 / var(--tw-text-opacity));
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  height: fit-content;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  background-image: linear-gradient(
+    to right,
+    #e6cba9,
+    #e9d2b6,
+    #ecd9c2,
+    #efe1cf,
+    #f2e8dc,
+    #f2e8dc,
+    #f2e8dc,
+    #f2e8dc
+  );
+}
+.formContainer button:hover {
+  background-color: #283032;
+}
+
+.mapContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block: 2rem;
+}
+
+.mapContainer > h2{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.mapContainer > p{
+  text-align: center;
+  font-size: small;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.mapBind {
+  margin-block: 0.5rem;
+  overflow: hidden;
+}
+
+.mapBind > iframe{
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 620px){
+  .root{
+    padding: 1rem;
+  }
+  .mainContainer{
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .formMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

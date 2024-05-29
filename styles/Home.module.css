@@ -528,6 +528,15 @@
   .section5{
     gap: 2rem;
   }
+  .reviewContainer {
+    background: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+    border-radius: 26px;
+  }
   .section5Container2 {
     flex-direction: column;
   }
