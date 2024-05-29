@@ -28,7 +28,7 @@ function Footer() {
             <h4>Community</h4>
                 <Link href={'/contact-us'}>Contact us</Link>
                 <Link href={'terms-and-conditions'}>terms and conditions</Link>
-                <Link href={'#'}>Team</Link>
+                <Link href={'/team'}>Team</Link>
             </div>
           </div>
           <hr />
