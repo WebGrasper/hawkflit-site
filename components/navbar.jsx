@@ -19,8 +19,8 @@ function Navbar() {
   const pathname = usePathname();
 
   const [isAtHome, setAtHome] = useState(false);
-  const [isAtFeatures, setAtFeatures] = useState(false);
   const [isAtProduct, setAtProduct] = useState(false);
+  const [isAtServices, setAtServices] = useState(false);
   const [isAtPortfolio, setAtPortfolio] = useState(false);
 
   useEffect(() => {
@@ -30,16 +30,16 @@ function Navbar() {
       setAtHome(false);
     }
 
-    if (pathname == '/features') {
-      setAtFeatures(true);
-    } else {
-      setAtFeatures(false);
-    }
-
     if (pathname == '/product') {
       setAtProduct(true);
     } else {
       setAtProduct(false);
+    }
+
+    if (pathname == '/services') {
+      setAtServices(true);
+    } else {
+      setAtServices(false);
     }
 
     if (pathname == '/portfolio') {
@@ -85,20 +85,28 @@ function Navbar() {
                 <span>Home</span>
               </Link>
               <Link
-                className={`${styles.link} ${isAtFeatures ? styles.active : ""}`}
-                href="/features"
+                className={`${styles.link}`}
+                href="#section3Container2"
                 passHref
                 onClick={handleLinkClick}
               >
                 <span>Features</span>
               </Link>
               <Link
-                className={`${styles.link} ${isAtProduct ? styles.active : ""}`}
-                href="/product"
+                className={`${styles.link}`}
+                href="#section5"
                 passHref
                 onClick={handleLinkClick}
               >
-                <span>Product</span>
+                <span>Clients</span>
+              </Link>
+              <Link
+                className={`${styles.link} ${isAtServices ? styles.active : ""}`}
+                href="/services"
+                passHref
+                onClick={handleLinkClick}
+              >
+                <span>Services</span>
               </Link>
               <Link
                 className={`${styles.link} ${isAtPortfolio ? styles.active : ""}`}

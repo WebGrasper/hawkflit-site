@@ -40,8 +40,39 @@ a {
   text-decoration: none;
 }
 
+
+/* Hide scrollbar for all elements */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, and Opera */
+}
+
+
+.button-bottom-right {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.button-bottom-right > img{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
+

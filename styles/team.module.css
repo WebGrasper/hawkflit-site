@@ -27,7 +27,7 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
   padding: 1.5rem;
@@ -50,7 +50,7 @@
 }
 
 .teamMemberDetails > img {
-  width: clamp(12rem, 7.5vw, 15rem);
+  width: clamp(14rem, 21vw, 18rem);
   border-radius: 10px;
   margin-bottom: 0.5rem;
 }
@@ -78,11 +78,26 @@
     text-transform: capitalize;
   }
 
+  .teamMemberDetails > hr{
+    color: white;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .socialIconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .socialIconContainer > a >img{
+    width: 20px;
+    height: 20px;
+  }
+
 
   @media only screen and (max-width: 626px){
-    .root > h1, .root > p{
-        text-align: left;
-    }
     .mainContainer{
         justify-content: center;
     }

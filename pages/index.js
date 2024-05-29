@@ -68,7 +68,7 @@ export default function Home() {
           <div className={styles.section3Container1}>
             <img src="/Signin.png" alt="" />
           </div>
-          <div className={styles.section3Container2}>
+          <div className={`${styles.section3Container2}`} id="section3Container2">
             <h2>
               You do the <span>business</span>, we'll handle the{" "}
               <span>privacy.</span>
@@ -96,7 +96,7 @@ export default function Home() {
             <img src="/newsfeed.png" alt="" />
           </div>
         </section>
-        <section className={styles.section5}>
+        <section className={styles.section5} id="section5">
           <div className={styles.section5Container1}>
             <h3>What people are saying about us</h3>
           </div>
