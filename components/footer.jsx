@@ -26,8 +26,8 @@ function Footer() {
             </div>
             <div className={styles.footerContainer3}>
             <h4>Community</h4>
-                <Link href={'/contactus'}>Contact us</Link>
-                <Link href={'#'}>terms and conditions</Link>
+                <Link href={'/contact-us'}>Contact us</Link>
+                <Link href={'terms-and-conditions'}>terms and conditions</Link>
                 <Link href={'#'}>Team</Link>
             </div>
           </div>

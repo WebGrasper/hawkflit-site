@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from "@/styles/contactus.module.css";
+import styles from "@/styles/contact-us.module.css";
 
 function ContactUs() {
   const [message, setMessage] = useState("");

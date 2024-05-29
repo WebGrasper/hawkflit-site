@@ -1,0 +1,96 @@
+.root {
+  width: 100%;
+}
+
+.mainContainer {
+  max-width: 70rem;
+  margin: 1.25rem auto;
+  padding-inline: 1rem;
+}
+
+.mainContainer > h1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.75;
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  width: 100%;
+  color: white;
+  word-break: break-word;
+  text-transform: capitalize;
+}
+
+.mainContainer > p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.75;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.6);
+  word-break: break-word;
+}
+
+.mainContainer > p > span {
+  color: white;
+  font-weight: 500;
+}
+
+.tncContainer {
+  padding-left: 1rem;
+}
+
+.tncContainer > h2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.75;
+  font-size: clamp(1.5rem, 1.75vw, 1.75rem);
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  word-break: break-word;
+  text-transform: capitalize;
+  margin-top: 0.75rem;
+}
+
+.tncContainer > p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.75;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.6);
+  word-break: break-word;
+}
+
+.tncContainer > hr {
+  margin-top: 1rem;
+  opacity: 0.75;
+  color: white;
+}
+
+.tncContainer > p > span {
+  font-weight: 500;
+  color: white;
+  text-transform: lowercase;
+}
+
+@media only screen and (max-width: 963px) {
+  .tncContainer {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .mainContainer > h1, .tncContainer > h2  {
+    line-height: 1.25;
+    margin-top: 1rem;
+  }
+  .mainContainer > p, .tncContainer > p{
+    margin-top: 0.75rem;
+  }
+}
