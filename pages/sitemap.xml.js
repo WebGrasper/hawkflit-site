@@ -18,7 +18,32 @@ async function generateSiteMap() {
             <url>
             <loc>${baseUrl}</loc>
             <lastmod>${currentDate}</lastmod>
-            <priority>1</priority>
+            <priority>0.9</priority>
+          </url>
+          <url>
+            <loc>${baseUrl}/services</loc>
+            <lastmod>${currentDate}</lastmod>
+            <priority>0.8</priority>
+          </url>
+          <url>
+            <loc>${baseUrl}/portfolio</loc>
+            <lastmod>${currentDate}</lastmod>
+            <priority>0.8</priority>
+          </url>
+          <url>
+            <loc>${baseUrl}/contact-us</loc>
+            <lastmod>${currentDate}</lastmod>
+            <priority>0.8</priority>
+          </url>
+          <url>
+            <loc>${baseUrl}/terms-and-conditions</loc>
+            <lastmod>${currentDate}</lastmod>
+            <priority>0.8</priority>
+          </url>
+          <url>
+            <loc>${baseUrl}/team</loc>
+            <lastmod>${currentDate}</lastmod>
+            <priority>0.8</priority>
           </url>
             </urlset>`;
     return xml;

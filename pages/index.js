@@ -12,24 +12,18 @@ export default function Home() {
         <title>Home - Hawkflit</title>
         <meta
           name="description"
-          content="Hawkflit is a software development company that is planning to launch a cross-platform mobile application for all business sectors in the future. It also offers software solutions such as web and mobile development."
+          content="Software development firm Hawkflit is presently working on a cross-platform mobile application suitable for different sectors of businesses. In addition to offering services like UI/UX design, social media management, and custom software development, we offer a broad range of software solutions, including web and mobile development."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta
-          property="og:title"
-          content="Home - Hawkflit"
-        />
+        <meta property="og:title" content="Home - Hawkflit" />
         <meta
           property="og:description"
-          content="Hawkflit is a software development company that is planning to launch a cross-platform mobile application for all business sectors in the future. It also offers software solutions such as web and mobile development."
+          content="Software development firm Hawkflit is presently working on a cross-platform mobile application suitable for different sectors of businesses. In addition to offering services like UI/UX design, social media management, and custom software development, we offer a broad range of software solutions, including web and mobile development."
         />
         <link rel="canonical" href="https://hawkflit.com/" />
 
-        <meta
-          property="og:image"
-          content="https://webgrasper.vercel.app/el.png"
-        />
+        <meta property="og:image" content="https://hawkflit.com/el.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/el.png" sizes="any" />
       </Head>
@@ -41,9 +35,10 @@ export default function Home() {
               <span>businesses.</span>
             </h2>
             <p>
-              Our team of experts uses a methodology to identify the credit
-              cards most likely to fit your needs. We examine annual percentage
-              rates, annual fees.
+              Our mission is to provide a platform that enables companies of all
+              kinds to communicate, interact, and finish agreements with ease.
+              Our goal is to promote social exchanges that support mutual
+              economic growth.
             </p>
           </div>
           <div className={styles.heroContainer2}>
@@ -68,15 +63,18 @@ export default function Home() {
           <div className={styles.section3Container1}>
             <img src="/Signin.png" alt="" />
           </div>
-          <div className={`${styles.section3Container2}`} id="section3Container2">
+          <div
+            className={`${styles.section3Container2}`}
+            id="section3Container2"
+          >
             <h2>
               You do the <span>business</span>, we'll handle the{" "}
               <span>privacy.</span>
             </h2>
             <p>
-              Our team of experts uses a methodology to identify the credit
-              cards most likely to fit your needs. We examine annual percentage
-              rates, annual fees.
+              Focus on developing your company's reputation while we protect
+              your privacy. Our secure platform ensures that your communications
+              and transactions are private and secured.
             </p>
           </div>
         </section>
@@ -87,9 +85,9 @@ export default function Home() {
               with Our Product <span>Newsfeed</span>.
             </h2>
             <p>
-              Our team of experts uses a methodology to identify the credit
-              cards most likely to fit your needs. We examine annual percentage
-              rates, annual fees.
+              Stay updated and engage with the latest trends and insights. Our
+              newsfeed lets you connect with other businesses, share your
+              stories, and grow together in a vibrant community.
             </p>
           </div>
           <div className={styles.section4Container2}>
@@ -154,9 +152,9 @@ export default function Home() {
               Chat <span>Securely,</span> Simply.
             </h2>
             <p>
-              Our team of experts uses a methodology to identify the credit
-              cards most likely to fit your needs. We examine annual percentage
-              rates, annual fees.
+              Enjoy effortless and secure communication with our platform.
+              Connect with clients and partners with peace of mind, knowing your
+              conversations are protected every step of the way.
             </p>
           </div>
         </section>

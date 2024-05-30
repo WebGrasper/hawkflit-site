@@ -1,7 +1,7 @@
 .root {
   width: 100%;
   margin-block: 1rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   background-color: transparent;
 }
 
@@ -57,10 +57,10 @@
   line-height: 1.75;
   -webkit-line-clamp: 2;
   z-index: 1;
-  width: 70%;
-  font-size: medium;
+  width: 100%;
+  font-size: small;
   text-align: left;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.75);
   word-break: break-word;
   text-transform: capitalize;
 }
@@ -78,7 +78,7 @@
   text-transform: capitalize;
 }
 
-.footerContainer2 > a, .footerContainer3 > a{
+.footerContainer2 > p, .footerContainer3 > a{
   text-overflow: ellipsis;
   overflow: hidden;
   line-height: 2;
@@ -86,6 +86,7 @@
   -webkit-line-clamp: 2;
   z-index: 1;
   width: fit-content;
+  cursor: pointer;
   color: rgba(255, 255, 255, 0.6);
   word-break: break-word;
   text-transform: capitalize;

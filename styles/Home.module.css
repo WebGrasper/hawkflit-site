@@ -15,6 +15,33 @@
   flex-wrap: nowrap;
 }
 
+.section1 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: slideUp 1s forwards;
+}
+
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7{
+  opacity: 0;
+  transform: translateY(100px);
+  animation: slideUp 1s forwards;
+  animation-timeline: view();
+  animation-range-start: cover 20%;
+  animation-range-end: cover 50%;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .heroContainer1,
 .heroContainer2,
 .section3Container1,
@@ -517,7 +544,8 @@
   .section2 {
     align-items: flex-start;
   }
-  .section3, .section6{
+  .section3,
+  .section6 {
     flex-direction: column-reverse;
     margin-block: 2rem;
     gap: 2rem;
@@ -525,7 +553,7 @@
   .section4 {
     margin-block: 2rem;
   }
-  .section5{
+  .section5 {
     gap: 2rem;
   }
   .reviewContainer {
@@ -555,12 +583,12 @@
     margin-right: 0;
   }
 
-  .section7Container1{
+  .section7Container1 {
     padding-block: 3rem;
     padding-inline: 1rem;
     gap: 1.5rem;
   }
-  .section7SubContainer1 > p{
+  .section7SubContainer1 > p {
     width: 100%;
   }
 }
