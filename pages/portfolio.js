@@ -1,8 +1,29 @@
 import styles from "@/styles/portfolio.module.css";
+import Head from "next/head";
 import Link from "next/link";
 
 function Portfolio() {
   return (
+    <>
+    <Head>
+        <title>Portfolio</title>
+        <meta
+          name="description"
+          content="See our latest creative work, and we believe the projects we have finished are helping organisation in thier reputation, economical growth and effective work."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta property="og:title" content="Home - Hawkflit" />
+        <meta
+          property="og:description"
+          content="See our latest creative work, and we believe the projects we have finished are helping organisation in thier reputation, economical growth and effective work."
+        />
+        <link rel="canonical" href="https://hawkflit.com/portfolio" />
+
+        <meta property="og:image" content="https://hawkflit.com/el.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" href="/el.png" sizes="any" />
+      </Head>
     <div className={styles.root}>
       <div className={styles.mainContainer}>
         <h1>Our Latest <span>Work</span></h1>
@@ -185,6 +206,7 @@ function Portfolio() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
