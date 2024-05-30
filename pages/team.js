@@ -1,4 +1,5 @@
 import styles from "@/styles/team.module.css";
+import Head from "next/head";
 import Link from "next/link";
 
 function Team() {
