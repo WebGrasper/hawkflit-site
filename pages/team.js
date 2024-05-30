@@ -4,7 +4,7 @@ import Link from "next/link";
 function Team() {
   return (
     <div className={styles.root}>
-      <h1>Our Team</h1>
+      <h1>Our <span>Team</span></h1>
       <p>
         We strive to do everything so that you can comfortably and productively
         work in our space and create amazing products and services.

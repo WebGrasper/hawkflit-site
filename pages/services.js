@@ -138,7 +138,7 @@ function Services() {
         </div>
         <div className={styles.headingQualitiesContainer}>
           <h1>
-            Why choose <span>Hawkflit</span>
+            Why <span>choose</span> Hawkflit
           </h1>
           <p>
             We aim high and use all the top technology platforms to offer you a

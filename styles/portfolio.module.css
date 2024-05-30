@@ -1,0 +1,138 @@
+.root {
+  max-width: 100%;
+}
+
+.mainContainer {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.mainContainer > h1 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.25;
+    -webkit-line-clamp: 2;
+    z-index: 1;
+    width: 100%;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+.mainContainer > h1 span {
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #e6cba9,
+    #e9d2b6,
+    #ecd9c2,
+    #efe1cf,
+    #f2e8dc,
+    #f2e8dc,
+    #f2e8dc,
+    #f2e8dc,
+    #efe1cf,
+    #ecd9c2,
+    #e9d2b6,
+    #e6cba9
+  );
+  background-clip: text;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-block: 2rem;
+}
+
+.projectContainer > h2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.25;
+  font-size: 1.5rem;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  width: 100%;
+  color: white;
+  word-break: break-word;
+  text-transform: capitalize;
+}
+
+.projectContainer > p {
+  color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.5;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  width: 75%;
+  font-size: medium;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  word-break: break-word;
+}
+
+.techNameContainer {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.techNameContainer > p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: medium;
+  word-break: break-word;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-block: 1rem;
+}
+
+.imagesContainer img {
+  max-width: 100%;
+  max-height: 24.1rem;
+  background-size: cover;
+  border-radius: 25px;
+  border: 10px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 20px 0px 300px #c0c0c082;
+}
+
+/* Adjust max-height to 30rem if there is only one image */
+.imagesContainer img:only-child {
+    max-height: 100%;
+  }
+
+@media only screen and (max-width: 1115px) {
+  .imagesContainer img {
+    max-height: 30rem;
+  }
+  .imagesContainer > img:nth-child(2) {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .projectContainer > p{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .imagesContainer img {
+    border: 5px solid rgba(255, 255, 255, 0.25);
+  }
+}

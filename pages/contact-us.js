@@ -107,7 +107,7 @@ function ContactUs() {
         </div>
       </section>
       <section className={styles.mapContainer}>
-        <h2>Find us on Google map</h2>
+        <h2>Find us on <span>Google map</span></h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil
           inventore fuga, suscipit veritatis quaerat soluta dolorem qui?

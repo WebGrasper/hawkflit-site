@@ -152,6 +152,26 @@
   text-align: center;
 }
 
+.mapContainer > h2 span{
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #e6cba9,
+    #e9d2b6,
+    #ecd9c2,
+    #efe1cf,
+    #f2e8dc,
+    #f2e8dc,
+    #f2e8dc,
+    #f2e8dc,
+    #efe1cf,
+    #ecd9c2,
+    #e9d2b6,
+    #e6cba9
+  );
+  background-clip: text;
+}
+
 .mapContainer > p{
   text-align: center;
   font-size: small;
