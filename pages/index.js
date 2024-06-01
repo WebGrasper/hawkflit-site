@@ -12,18 +12,18 @@ export default function Home() {
         <title>Home - Hawkflit</title>
         <meta
           name="description"
-          content="Software development firm Hawkflit is presently working on a cross-platform mobile application suitable for different sectors of businesses. In addition to offering services like UI/UX design, social media management, and custom software development, we offer a broad range of software solutions, including web and mobile development."
+          content="Hawkflit is developing a cross-platform mobile app for various sectors. We offer UI/UX design, social media management, custom software, and web development."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Home - Hawkflit" />
         <meta
           property="og:description"
-          content="Software development firm Hawkflit is presently working on a cross-platform mobile application suitable for different sectors of businesses. In addition to offering services like UI/UX design, social media management, and custom software development, we offer a broad range of software solutions, including web and mobile development."
+          content="Hawkflit is developing a cross-platform mobile app for various sectors. We offer UI/UX design, social media management, custom software, and web development."
         />
-        <link rel="canonical" href="https://hawkflit.com/" />
+        <link rel="canonical" href="https://www.hawkflit.com/" />
 
-        <meta property="og:image" content="https://hawkflit.com/el.png" />
+        <meta property="og:image" content="https://www.hawkflit.com/el.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/el.png" sizes="any" />
       </Head>

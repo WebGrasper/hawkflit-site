@@ -18,9 +18,9 @@ function Team() {
           property="og:description"
           content="Small team with the great dreams is always available when needed."
         />
-        <link rel="canonical" href="https://hawkflit.com/team" />
+        <link rel="canonical" href="https://www.hawkflit.com/team" />
 
-        <meta property="og:image" content="https://hawkflit.com/el.png" />
+        <meta property="og:image" content="https://www.hawkflit.com/el.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/el.png" sizes="any" />
       </Head>

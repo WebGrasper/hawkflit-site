@@ -18,9 +18,9 @@ function Portfolio() {
           property="og:description"
           content="See our latest creative work, and we believe the projects we have finished are helping organisation in thier reputation, economical growth and effective work."
         />
-        <link rel="canonical" href="https://hawkflit.com/portfolio" />
+        <link rel="canonical" href="https://www.hawkflit.com/portfolio" />
 
-        <meta property="og:image" content="https://hawkflit.com/el.png" />
+        <meta property="og:image" content="https://www.hawkflit.com/el.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/el.png" sizes="any" />
       </Head>

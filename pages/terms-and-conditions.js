@@ -8,18 +8,18 @@ function TermsAndConditions() {
         <title>Terms & conditions</title>
         <meta
           name="description"
-          content="The Hawkflit policies is mentioned, and we follow a transparent system to build a trust with people."
+          content="The Hawkflit policies is already mentioned, and we follow a transparent system to build a trust with people."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Home - Hawkflit" />
         <meta
           property="og:description"
-          content="The Hawkflit policies is mentioned, and we follow a transparent system to build a trust with people."
+          content="The Hawkflit policies is already mentioned, and we follow a transparent system to build a trust with people."
         />
-        <link rel="canonical" href="https://hawkflit.com/terms-and-conditions" />
+        <link rel="canonical" href="https://www.hawkflit.com/terms-and-conditions" />
 
-        <meta property="og:image" content="https://hawkflit.com/el.png" />
+        <meta property="og:image" content="https://www.hawkflit.com/el.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/el.png" sizes="any" />
       </Head>

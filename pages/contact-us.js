@@ -63,9 +63,9 @@ function ContactUs() {
           property="og:description"
           content="Submit your queries through form, one of our team member will get in touch with you soon."
         />
-        <link rel="canonical" href="https://hawkflit.com/contact-us" />
+        <link rel="canonical" href="https://wwww.hawkflit.com/contact-us" />
 
-        <meta property="og:image" content="https://hawkflit.com/el.png" />
+        <meta property="og:image" content="https://www.hawkflit.com/el.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/el.png" sizes="any" />
       </Head>

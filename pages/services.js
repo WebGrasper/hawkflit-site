@@ -17,9 +17,9 @@ function Services() {
           property="og:description"
           content="We Offering Services Like UI/UX Design, Social Media Management, And Custom Software Development, We Offer A Broad Range Of Software Solutions, Including Web And Mobile Development."
         />
-        <link rel="canonical" href="https://hawkflit.com/services" />
+        <link rel="canonical" href="https://www.hawkflit.com/services" />
 
-        <meta property="og:image" content="https://hawkflit.com/el.png" />
+        <meta property="og:image" content="https://www.hawkflit.com/el.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/el.png" sizes="any" />
       </Head>
