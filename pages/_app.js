@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
         />
       </Head>
       <button type="button" className="button-bottom-right" onClick={scrollToTop}>
-        <img src="/top.png" alt="" />
+        <img src="/top.png" alt="top button" />
       </button>
       <Navbar />
       <Component {...pageProps} />

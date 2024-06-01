@@ -58,7 +58,7 @@ function Navbar() {
           <div className={`${styles.container1}`}>
             <Link href={"/"}>
               <div className={styles.container1H1}>
-                <img src="/el.png" alt="Silverline logo" />
+                <img src="/el.png" alt="Hawkflit logo" />
                 <p>Hawk<span>flit</span></p>
               </div>
             </Link>

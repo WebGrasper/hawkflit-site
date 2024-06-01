@@ -9,7 +9,7 @@ function Footer() {
           <div className={styles.footerContainer}>
             <div className={styles.footerContainer1}>
               <div className={styles.container1H1}>
-                <img src="/el.png" alt="Silverline logo" />
+                <img src="/el.png" alt="Hawkflit logo" />
                 <p>
                   Hawk<span>flit</span>
                 </p>
@@ -42,17 +42,14 @@ function Footer() {
           <div className={styles.copyWriteContainer}>
             <p>2023 Hawkflit. All Rights Reserved.</p>
             <div className={styles.socialIconContainer}>
-              <Link href={"#"}>
-                <img src="/facebook.svg" alt="" />
+              <Link href={"https://www.instagram.com/hawkflit/"} target="_blank">
+                <img src="/instagram.svg" alt="instagram icon" />
               </Link>
-              <Link href={"#"}>
-                <img src="/instagram.svg" alt="" />
+              <Link href={"https://www.linkedin.com/company/hawkflit/"} target="_blank">
+                <img src="/linkedin.svg" alt="linkedin icon" />
               </Link>
-              <Link href={"#"}>
-                <img src="/linkedin.svg" alt="" />
-              </Link>
-              <Link href={"#"}>
-                <img src="/twitter.svg" alt="" />
+              <Link href={"https://x.com/hawkflit"} target="_blank">
+                <img src="/twitter.svg" alt="twitter icon" />
               </Link>
             </div>
           </div>

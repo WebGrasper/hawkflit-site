@@ -48,16 +48,16 @@ function Team() {
                 href={"https://www.instagram.com/_amaan_ansri/"}
                 target="_blank"
               >
-                <img src="/instagram.svg" alt="" />
+                <img src="/instagram.svg" alt="instagram icon" />
               </Link>
               <Link
                 href={"https://www.linkedin.com/in/webgrasper/"}
                 target="_blank"
               >
-                <img src="/linkedin.svg" alt="" />
+                <img src="/linkedin.svg" alt="linkedin icon" />
               </Link>
               <Link href={"https://x.com/WebGrasper"} target="_blank">
-                <img src="/twitter.svg" alt="" />
+                <img src="/twitter.svg" alt="twitter icon" />
               </Link>
             </div>
           </div>
@@ -75,16 +75,16 @@ function Team() {
                 href={"https://www.instagram.com/__mohammad_faraz__/"}
                 target="_blank"
               >
-                <img src="/instagram.svg" alt="" />
+                <img src="/instagram.svg" alt="instagram icon" />
               </Link>
               <Link
                 href={"https://www.linkedin.com/in/androiabledroid/"}
                 target="_blank"
               >
-                <img src="/linkedin.svg" alt="" />
+                <img src="/linkedin.svg" alt="linkedin icon" />
               </Link>
               <Link href={"https://x.com/androiabledroid"} target="_blank">
-                <img src="/twitter.svg" alt="" />
+                <img src="/twitter.svg" alt="twitter icon" />
               </Link>
             </div>
           </div>
@@ -102,16 +102,16 @@ function Team() {
                 href={"https://www.instagram.com/numanqurxshi/"}
                 target="_blank"
               >
-                <img src="/instagram.svg" alt="" />
+                <img src="/instagram.svg" alt="instagram icon" />
               </Link>
               <Link
                 href={"https://www.linkedin.com/in/numaanqureshi/"}
                 target="_blank"
               >
-                <img src="/linkedin.svg" alt="" />
+                <img src="/linkedin.svg" alt="linkedin icon" />
               </Link>
               <Link href={"https://x.com/nomannaeem985"} target="_blank">
-                <img src="/twitter.svg" alt="" />
+                <img src="/twitter.svg" alt="twitter icon" />
               </Link>
             </div>
           </div>

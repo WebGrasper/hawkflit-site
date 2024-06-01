@@ -59,7 +59,7 @@
   justify-content: center;
 }
 
-.heroContainer1 > h2 {
+.heroContainer1 > h1 {
   text-overflow: ellipsis;
   overflow: hidden;
   line-height: 1.3;
@@ -72,7 +72,7 @@
   text-transform: capitalize;
 }
 
-.heroContainer1 > h2 span {
+.heroContainer1 > h1 span {
   color: transparent;
   background-image: linear-gradient(
     to right,

@@ -12,14 +12,14 @@ export default function Home() {
         <title>Home - Hawkflit</title>
         <meta
           name="description"
-          content="Software development firm Hawkflit is presently working on a cross-platform mobile application suitable for different sectors of businesses. In addition to offering services like UI/UX design, social media management, and custom software development, we offer a broad range of software solutions, including web and mobile development."
+          content="Software development firm Hawkflit is presently working on a cross-platform mobile application suitable for different sectors of businesses. In addition to offering services like UI/UX design, social media management, and custom software development, we offer a broad range of software solutions, including web and mobile development."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Home - Hawkflit" />
         <meta
           property="og:description"
-          content="Software development firm Hawkflit is presently working on a cross-platform mobile application suitable for different sectors of businesses. In addition to offering services like UI/UX design, social media management, and custom software development, we offer a broad range of software solutions, including web and mobile development."
+          content="Software development firm Hawkflit is presently working on a cross-platform mobile application suitable for different sectors of businesses. In addition to offering services like UI/UX design, social media management, and custom software development, we offer a broad range of software solutions, including web and mobile development."
         />
         <link rel="canonical" href="https://hawkflit.com/" />
 
@@ -30,10 +30,10 @@ export default function Home() {
       <main className={styles.root}>
         <section className={styles.section1}>
           <div className={styles.heroContainer1}>
-            <h2>
+            <h1>
               The <span>next generation</span> social interaction app for{" "}
               <span>businesses.</span>
-            </h2>
+            </h1>
             <p>
               Our mission is to provide a platform that enables companies of all
               kinds to communicate, interact, and finish agreements with ease.
@@ -42,7 +42,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.heroContainer2}>
-            <img src="/Home.png" alt="" />
+            <img src="/Home.png" alt="home image" />
           </div>
         </section>
         <section className={styles.section2}>
@@ -61,7 +61,7 @@ export default function Home() {
         </section>
         <section className={styles.section3}>
           <div className={styles.section3Container1}>
-            <img src="/Signin.png" alt="" />
+            <img src="/Signin.png" alt="signin image" />
           </div>
           <div
             className={`${styles.section3Container2}`}
@@ -91,7 +91,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.section4Container2}>
-            <img src="/newsfeed.png" alt="" />
+            <img src="/newsfeed.png" alt="newsfeed image" />
           </div>
         </section>
         <section className={styles.section5} id="section5">
@@ -106,7 +106,7 @@ export default function Home() {
                 will not replace you as the driver.
               </p>
               <div className={styles.reviewerContainer}>
-                <img src="/reviewer1.webp" alt="" />
+                <img src="/reviewer1.webp" alt="reviewer 1 image" />
                 <div className={styles.reviewerProfileDetails}>
                   <p>Herman Jenson</p>
                   <p>Founder & Leader</p>
@@ -120,7 +120,7 @@ export default function Home() {
                 lucky.
               </p>
               <div className={styles.reviewerContainer}>
-                <img src="/reviewer2.webp" alt="" />
+                <img src="/reviewer2.webp" alt="reviewer 2 image" />
                 <div className={styles.reviewerProfileDetails}>
                   <p>Steve Mark</p>
                   <p>Founder & Leader</p>
@@ -134,7 +134,7 @@ export default function Home() {
                 international trade that are really rich.
               </p>
               <div className={styles.reviewerContainer}>
-                <img src="/reviewer3.webp" alt="" />
+                <img src="/reviewer3.webp" alt="reviewer 3 image" />
                 <div className={styles.reviewerProfileDetails}>
                   <p>Kenn Gallagher</p>
                   <p>Founder & Leader</p>
@@ -145,7 +145,7 @@ export default function Home() {
         </section>
         <section className={styles.section6}>
           <div className={styles.section6Container1}>
-            <img src="/Chats.png" alt="" />
+            <img src="/Chats.png" alt="chat image" />
           </div>
           <div className={styles.section6Container2}>
             <h2>
